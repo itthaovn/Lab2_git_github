@@ -15,5 +15,12 @@ namespace Git_GitHub
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(textBox_No1.Text);
+            double b = double.Parse(textBox_No2.Text);
+            double c = a + b;
+        }
     }
 }
